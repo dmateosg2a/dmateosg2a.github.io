@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+	<style>
+		.notification a {text-decoration:none !important}
+		.is-primary {background-color: #135292 !important}
+		.is-link {background-color: #E05331 !important}
+		.is-g2a {color: #135292}
+	</style>
+</head>
+<body>
+	<div class="container is-fluid">
+		<figure class="image is-128x128">
+			<img src="https://hcmex-prod.s3.amazonaws.com/uploads/15573611/people/company_images/login/thumb/2021aga2a_log.png">
+		</figure>
+		<div class="notification is-primary">
+			<h1 class="title is-5">
+				Enlaces directos Bizneo
+			</h1>
+		</div>
+		<div class="notification is-secondary">
+			<h2 class="subtitle is-6"><i class="fa-solid fa-address-book"></i> Listados de personal con diferentes filtros aplicados</h2>
+			<div class="dropdown is-hoverable">
+				<div class="dropdown-trigger">
+					<button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+						<span>Listados generales</span>
+						<span class="icon is-small">
+							<i class="fas fa-angle-down" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+				<div class="dropdown-menu" id="dropdown-menu4" role="menu">
+					<div class="dropdown-content">
+						<div class="dropdown-item">
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[access]=enabled" target=”_blank”>
+								<span class="icon"><i class="fas fa-globe is-g2a"></i></span> &nbsp;&nbsp;Ground2Air al completo</a>
+							</button>	
+							<br>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[access]=enabled&filters[taxon_ids_15573744][]=15575462" target=”_blank”>
+								<span class="icon"><i class="fas fa-city is-g2a"></i></span> &nbsp;&nbsp;Sólo Head Office</a>
+							</button>
+							<br>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[access]=enabled&filters[taxon_ids_15573744][]=15575462&filters[taxon_ids_15573744][]=15575464" target=”_blank”>
+								<span class="icon"><i class="fas fa-city is-g2a"></i></span> &nbsp;&nbsp;Head Office + Hans</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[access]=enabled&filters[taxon_ids_15573744][]=15575462&filters[taxon_ids_15573744][]=15575464&filters[taxon_ids_15573744][]=15575467" target=”_blank”>
+								<span class="icon"><i class="fas fa-city is-g2a"></i></span> &nbsp;&nbsp;Head Office + Hans + Toni</a>
+							</button>
+							<br>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[access]=enabled&filters[hierarchical_taxon_ids_15573744]=15575464" target=”_blank”>
+								<span class="icon"><i class="fas fa-plane-departure is-g2a"></i></span> &nbsp;&nbsp;Todos los Colectivos + Toni + Hans</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[access]=enabled&filters[hierarchical_taxon_ids_15573744]=15575467" target=”_blank”>
+								<span class="icon"><i class="fas fa-plane-departure is-g2a"></i></span> &nbsp;&nbsp;Todos los Colectivos + Toni</a>
+							</button>
+							<br>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573744][]=15575777&filters[taxon_ids_15573744][]=15575471&filters[taxon_ids_15573744][]=15575470&filters[taxon_ids_15573744][]=15575469&filters[taxon_ids_15573744][]=15575468&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-plane-departure is-g2a"></i></span> &nbsp;&nbsp;Todos los Colectivos </a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573744][]=15575777&filters[taxon_ids_15573744][]=15575471&filters[taxon_ids_15573744][]=15575470&filters[taxon_ids_15573744][]=15575469&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-plane-departure is-g2a"></i></span> &nbsp;&nbsp;Todos los Colectivos EXCEP. TURNOS (Planif)</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dropdown is-hoverable">
+				<div class="dropdown-trigger">
+					<button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+						<span>Listados por colectivos</span>
+						<span class="icon is-small">
+							<i class="fas fa-angle-down" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+				<div class="dropdown-menu" id="dropdown-menu4" role="menu">
+					<div class="dropdown-content">
+						<div class="dropdown-item">
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573745][]=15575481&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Jefes de Turno</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573745][]=15575482&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Supervisores</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573744][]=15575469&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Ventas</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15574002][]=15578455&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Agentes + Ventas</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573744][]=15575470&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Lost And Found</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573745][]=15575616&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Operarios</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573744][]=15575471&filters[taxon_ids_15573745][]=15575483&filters[taxon_ids_15573763][]=15575774&filters[taxon_ids_15573763][]=15575775&filters[taxon_ids_15574002][]=-1&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Agentes Fijos</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573744][]=15575471&filters[taxon_ids_15573745][]=15575483&filters[taxon_ids_15573763][]=15575772&filters[taxon_ids_15574002][]=-1&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Agentes FDs</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573744][]=15575471&filters[taxon_ids_15573745][]=15575483&filters[taxon_ids_15573763][]=15575773&filters[taxon_ids_15574002][]=-1&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Agentes Eventuales</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573744][]=15575777&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Flight Editing</a>
+							</button>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573744][]=15575468&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Turnos (planificación)</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dropdown is-hoverable">
+				<div class="dropdown-trigger">
+					<button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+						<span>Listados por tipo de contrato</span>
+						<span class="icon is-small">
+							<i class="fas fa-angle-down" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+				<div class="dropdown-menu" id="dropdown-menu4" role="menu">
+					<div class="dropdown-content">
+						<div class="dropdown-item">
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573763][]=15575774&filters[taxon_ids_15573763][]=15575775&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Fijos</a>
+							</button>
+							<br>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573763][]=15575772&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Fijos Discontinuos</a>
+							</button>
+							<br>
+							<button class="button">
+								<a href="https://aga-g2a.bizneohr.com/people/management?filters[taxon_ids_15573763][]=15575773&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
+								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Eventuales</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="notification is-secondary">
+			<h2 class="subtitle is-6"><i class="fa-solid fa-user-xmark"></i> Solicitudes de ausencia / incidencias</h2>
+			<button class="button is-link">
+				<a href="https://aga-g2a.bizneohr.com/absences/timeline" target=”_blank”>
+				<span class="icon"><i class="fa-solid fa-calendar-plus"></i></span> &nbsp;&nbsp;Solicitar ausencias / poner incidencias</a>
+			</button>			
+			<div class="dropdown is-hoverable">
+				<div class="dropdown-trigger">
+					<button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+						<span>Estado de las peticiones o incidencias</span>
+						<span class="icon is-small">
+							<i class="fas fa-angle-down" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+				<div class="dropdown-menu" id="dropdown-menu4" role="menu">
+					<div class="dropdown-content">
+						<div class="dropdown-item">
+							<button class="button is-success is-light is-outlined">
+								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_my_approval]=false&filters[state][]=approved" target=”_blank”>
+								<span class="icon"><i class="fa-solid fa-check"></i></span> &nbsp;&nbsp;Aprobadas</a>
+							</button>
+							<button class="button is-info is-light is-outlined">
+								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_documents]=true&filters[pending_my_approval]=false" target=”_blank”>
+								<span class="icon"><i class="fa-regular fa-file"></i></span> &nbsp;&nbsp;Ptes. de Documento</a>
+							</button>
+							<button class="button is-warning is-light is-outlined">
+								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_my_approval]=false&filters[state][]=pending" target=”_blank”>
+								<span class="icon"><i class="fa-regular fa-clock"></i></span> &nbsp;&nbsp;Pendientes</a>
+							</button>
+							<br>
+							<button class="button is-danger is-light is-outlined">
+								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_my_approval]=false&filters[state][]=rejected" target=”_blank”>
+								<span class="icon"><i class="fa-regular fa-circle-xmark"></i></span> &nbsp;&nbsp;Rechazadas</a>
+							</button>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</body>
