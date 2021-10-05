@@ -168,6 +168,46 @@
 			</div>
 		</div>
 		<div class="notification is-secondary">
+			<h2 class="subtitle is-6"><i class="fa-solid fa-user-xmark"></i> Solicitudes de ausencia / incidencias</h2>
+			<button class="button is-link">
+				<a href="https://aga-g2a.bizneohr.com/absences/timeline" target=”_blank”>
+				<span class="icon"><i class="fa-solid fa-calendar-plus"></i></span> &nbsp;&nbsp;Solicitar ausencias / poner incidencias</a>
+			</button>			
+			<div class="dropdown is-hoverable">
+				<div class="dropdown-trigger">
+					<button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+						<span>Estado de las peticiones o incidencias</span>
+						<span class="icon is-small">
+							<i class="fas fa-angle-down" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+				<div class="dropdown-menu" id="dropdown-menu4" role="menu">
+					<div class="dropdown-content">
+						<div class="dropdown-item">
+							<button class="button is-success is-light is-outlined">
+								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_my_approval]=false&filters[state][]=approved" target=”_blank”>
+								<span class="icon"><i class="fa-solid fa-check"></i></span> &nbsp;&nbsp;Aprobadas</a>
+							</button>
+							<button class="button is-info is-light is-outlined">
+								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_documents]=true&filters[pending_my_approval]=false" target=”_blank”>
+								<span class="icon"><i class="fa-regular fa-file"></i></span> &nbsp;&nbsp;Ptes. de Documento</a>
+							</button>
+							<button class="button is-warning is-light is-outlined">
+								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_my_approval]=false&filters[state][]=pending" target=”_blank”>
+								<span class="icon"><i class="fa-regular fa-clock"></i></span> &nbsp;&nbsp;Pendientes</a>
+							</button>
+							<br>
+							<button class="button is-danger is-light is-outlined">
+								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_my_approval]=false&filters[state][]=rejected" target=”_blank”>
+								<span class="icon"><i class="fa-regular fa-circle-xmark"></i></span> &nbsp;&nbsp;Rechazadas</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="notification is-secondary">
 			<h2 class="subtitle is-6"><i class="fa-solid fa-flag"></i> Informes de control de presencia</h2>
 			<button class="button is-link">
 				<a href="https://aga-g2a.bizneohr.com/time-attendance/daily-breakdown" target=”_blank”>
@@ -303,46 +343,6 @@
 							<button class="button">
 								<a href="https://aga-g2a.bizneohr.com/time-attendance/monthly-approvals?filters[taxon_ids_15573744][]=15575468&sort[by]=last_name&sort[direction]=asc" target=”_blank”>
 								<span class="icon"><i class="fas fa-users is-g2a"></i></span> &nbsp;&nbsp;Turnos (planificación)</a>
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="notification is-secondary">
-			<h2 class="subtitle is-6"><i class="fa-solid fa-user-xmark"></i> Solicitudes de ausencia</h2>
-			<button class="button is-link">
-				<a href="https://aga-g2a.bizneohr.com/absences/timeline" target=”_blank”>
-				<span class="icon"><i class="fa-solid fa-calendar-plus"></i></span> &nbsp;&nbsp;Solicitar ausencias</a>
-			</button>			
-			<div class="dropdown is-hoverable">
-				<div class="dropdown-trigger">
-					<button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
-						<span>Estado de las peticiones o incidencias</span>
-						<span class="icon is-small">
-							<i class="fas fa-angle-down" aria-hidden="true"></i>
-						</span>
-					</button>
-				</div>
-				<div class="dropdown-menu" id="dropdown-menu4" role="menu">
-					<div class="dropdown-content">
-						<div class="dropdown-item">
-							<button class="button is-success is-light is-outlined">
-								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_my_approval]=false&filters[state][]=approved" target=”_blank”>
-								<span class="icon"><i class="fa-solid fa-check"></i></span> &nbsp;&nbsp;Aprobadas</a>
-							</button>
-							<button class="button is-info is-light is-outlined">
-								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_documents]=true&filters[pending_my_approval]=false" target=”_blank”>
-								<span class="icon"><i class="fa-regular fa-file"></i></span> &nbsp;&nbsp;Ptes. de Documento</a>
-							</button>
-							<button class="button is-warning is-light is-outlined">
-								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_my_approval]=false&filters[state][]=pending" target=”_blank”>
-								<span class="icon"><i class="fa-regular fa-clock"></i></span> &nbsp;&nbsp;Pendientes</a>
-							</button>
-							<br>
-							<button class="button is-danger is-light is-outlined">
-								<a href="https://aga-g2a.bizneohr.com/absences/management/absence?filters[pending_my_approval]=false&filters[state][]=rejected" target=”_blank”>
-								<span class="icon"><i class="fa-regular fa-circle-xmark"></i></span> &nbsp;&nbsp;Rechazadas</a>
 							</button>
 						</div>
 					</div>
